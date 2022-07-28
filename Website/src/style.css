@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Hellovetica;
+  src: url("../assets/font/Hellovetica/hellovetica.woff");
+}
+
+img {
+  display: inline-block;
+}
+
+body {
+  background-color: #373457;
+}
+
+.welcome-text #welcome {
+  text-align: center;
+}
+
+.gh #GitHub {
+  display: block;
+  text-align: center;
+}
+
+.welcome-text #welcome:hover {
+  color: #ffacdb;
+}
+
+h1 {
+  font-family: Hellovetica;
+  color: #ff79c6;
+  font-size: 72px;
+}
+
+#GitHub {
+  text-align: center;
+  font-family: Hellovetica;
+  color: #ff79c6;
+  font-size: 10px;
+}
+
+#GitHub:hover {
+  color: #ffacdb;
+}
+
+.people {
+  margin: auto;
+  text-align: center;
+}
+
+.welcome-text {
+  margin: auto;
+}
+
+.gh {
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+}
