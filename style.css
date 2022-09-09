@@ -3,24 +3,24 @@
   src: url("../assets/font/Hellovetica/hellovetica.woff");
 }
 
-img {
+#people {
+  text-align: center;
+}
+
+.avatars {
   display: inline-block;
+  font-size: 0px;
 }
 
 body {
   background-color: #373457;
 }
 
-.welcome-text #welcome {
+#welcome {
   text-align: center;
 }
 
-.gh #GitHub {
-  display: block;
-  text-align: center;
-}
-
-.welcome-text #welcome:hover {
+#welcome:hover {
   color: #ffacdb;
 }
 
@@ -30,28 +30,31 @@ h1 {
   font-size: 72px;
 }
 
-#GitHub {
+#welcome {
+  margin: auto;
+  padding: 100px;
+}
+
+.ref {
   text-align: center;
+  margin: auto;
+  padding-top: 70px;
   font-family: Hellovetica;
   color: #ff79c6;
   font-size: 10px;
+}
+
+#GitHub:visited {
+  color: #ff79c6;
+}
+#generator:visited {
+  color: #ff79c6;
 }
 
 #GitHub:hover {
   color: #ffacdb;
 }
 
-.people {
-  margin: auto;
-  text-align: center;
-}
-
-.welcome-text {
-  margin: auto;
-}
-
-.gh {
-  text-align: center;
-  margin: auto;
-  padding-top: 70px;
+#generator:hover {
+  color: #ffacdb;
 }
