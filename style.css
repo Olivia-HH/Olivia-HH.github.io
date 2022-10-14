@@ -31,8 +31,9 @@ h1 {
 }
 
 #welcome {
-  margin: auto;
-  padding: 100px;
+  margin: 3000;
+  padding-top: 100px;
+  padding-left: 0;
 }
 
 .ref {
