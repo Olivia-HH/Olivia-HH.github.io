@@ -3,7 +3,39 @@
   src: url("../assets/font/Hellovetica/hellovetica.woff");
 }
 
+body {
+  background-color: #373457;
+  font-family: Hellovetica;
+}
+
+/* .jump {
+  -webkit-animation: mover 0.7s;
+  animation: mover 0.7s;
+} */
+@-webkit-keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.welcome {
+  user-select: none;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #ff79c6;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 100px;
+}
+
 #people {
+  margin: auto;
   text-align: center;
 }
 
@@ -12,37 +44,27 @@
   font-size: 0px;
 }
 
-body {
-  background-color: #373457;
-}
-
-#welcome {
-  text-align: center;
-}
-
-#welcome:hover {
-  color: #ffacdb;
-}
-
-h1 {
-  font-family: Hellovetica;
-  color: #ff79c6;
-  font-size: 72px;
-}
-
-#welcome {
-  margin: 3000;
-  padding-top: 100px;
-  padding-left: 0;
+.avatar {
+  margin: 60px;
 }
 
 .ref {
+  user-select: none;
+  width: 60%;
   text-align: center;
   margin: auto;
-  padding-top: 70px;
   font-family: Hellovetica;
-  color: #ff79c6;
   font-size: 10px;
+}
+
+#GitHub {
+  text-decoration: none;
+  color: #ff79c6;
+}
+
+#generator {
+  text-decoration: none;
+  color: #ff79c6;
 }
 
 #GitHub:visited {
@@ -52,10 +74,34 @@ h1 {
   color: #ff79c6;
 }
 
+#welcomeText:hover {
+  color: #ffacdb;
+}
+
 #GitHub:hover {
   color: #ffacdb;
 }
 
 #generator:hover {
   color: #ffacdb;
+}
+
+#olivia {
+  transform: none;
+}
+
+#rhys {
+  transform: none;
+}
+
+#michael {
+  transform: none;
+}
+
+#alex {
+  transform: none;
+}
+
+#leo {
+  transform: none;
 }
