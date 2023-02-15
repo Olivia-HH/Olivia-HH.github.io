@@ -3,7 +3,7 @@ class character {
     this.name = name;
     this.id = id;
     this.isFlipped = false;
-    this.flipInterval = Math.floor(Math.random() * 10) + 1;
+    this.flipInterval = Math.random() * 10 + 1;
   }
 
   setHeading() {
@@ -33,7 +33,7 @@ class character {
 
   flip() {
     //console.log(this.id)
-    let flipInterval = Math.floor(Math.random() * 10) + 1; //init to something between 1-10sec
+    let flipInterval = Math.random() * 10 + 1; //init to something between 1-10sec
 
     setTimeout(this.wait.bind(this), flipInterval * 1000); //wait (interval) seconds
   }
